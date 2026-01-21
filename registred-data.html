@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registred data</title>
+</head>
+<body>
+
+<h2>Submitted Data</h2>
+<p>Student Name: <span id="showName"></span></p>
+<p>Student rollno: <span id="showRollno"></span></p>
+<p>Email ID: <span id="showEmail"></span></p>
+<p>Email password: <span id="showPassword"></span></p>
+<p>Mobile number: <span id="showNumber"></span></p>
+
+<script>
+    document.getElementById("showName").innerText =
+        localStorage.getItem("name");
+
+    document.getElementById("showRollno").innerText =
+        localStorage.getItem("rollno");
+
+    document.getElementById("showEmail").innerText =
+        localStorage.getItem("email");
+
+    document.getElementById("showPassword").innerText =
+        localStorage.getItem("password");
+
+    document.getElementById("showNumber").innerText =
+        localStorage.getItem("number");            
+</script>
+
+</body>
+</html>

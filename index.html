@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<br>
+<form  id="myForm">
+    <fieldset>
+        <legend>Registration form</legend>
+<label for="name">Student name:</label><br>
+<input type="text" id="myname" placeholder="Enter your name" required>
+<br><br>
+<label for="rollno">Student rollno:</label><br>
+<input type="text" id="rollno" placeholder="Enter rollno">
+<br>
+<br>
+<label for="101">
+<input type="radio" value="class XI" id="101">class XI
+</label>
+<label for="102">
+<input type="radio" value="class XII" id="102">class XII
+</label>
+<br><br>
+<label for="dob">Date of birth:</label>
+<input type="date" id="dob"  required />
+<br>
+<p>Select state</p>
+<select name="state">
+<option value="haryana">Haryana</option>
+<option value="delhi">Delhi</option>
+<option value="punjab">Punjab</option>
+</select>
+<br><br>
+<label for="email">Student email ID:</label><br>
+<input type="email" id="email" placeholder="Enter email id">
+<br><br>
+<label for="password">Email ID password:</label><br>
+<input type="password" id="password" placeholder="Enter password">
+<br><br>
+<label for="number">Registred mobile number:</label><br>
+<input type="number" id="number" placeholder="Enter mobile no">
+<br><br>
+<p>choose subjects</p>
+<label for="math">
+<input type="checkbox" value="math" id="101">math
+</label>
+<label for="physics">
+<input type="checkbox" value="physics"  id="102">physics
+</label>
+<label for="chemistry">
+<input type="checkbox" value="chemistry"  id="103">chemistry
+</label>
+<label for="computer science">
+<input type="checkbox" value="computer science"  id="104">computer science
+</label>
+<br>
+<br>
+<textarea name="feedback" id="101" placeholder="please give your valuable feedback here"width=7>feedback</textarea>
+<br>
+<br>
+<button type="submit">submit</button>
+
+</fieldset>
+</form>
+
+<script  src=script.js></script>
+</body>
+</html>
+    
+
